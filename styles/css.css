@@ -31,17 +31,13 @@ body {
 .submit-state{
     text-align: center;
 }
-.star-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 1rem;
-}
+
 .btn {
     display: inline-block;
     padding: 0.8rem 10rem;
     font-size: 15px;
     color: white;
-    background-color: #007BFF;
+    background-color: hsl(25, 97%, 53%);
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -51,10 +47,12 @@ body {
 
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color:  hsl(0, 100%, 100%);
+    color: black;
 }
 .btn:active {
-    background-color: #004085;
+    background-color:  hsl(0, 100%, 100%);
+    color: black;
 }
 
 .container2{
@@ -82,20 +80,23 @@ body {
     border: none;
     border-radius: 50%;
     background:hsl(217, 12%, 63%);
-    color: white;
+    color: hsl(216, 12%, 8%);
     transition: 0.3s;
     transition: background-color 0.3s ease;
     
 }
 
 .rating-button:hover {
-    background: #0056b3;
+    background:hsl(25, 97%, 53%);
 }
 
 .stars {
+    display: flex;
     margin-top: 30px;
     font-size: 50px;
     color: gold;
-    text-align: center;
+    text-align: flex-start;
+    justify-content: center;
+
 
 }
