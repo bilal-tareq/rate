@@ -26,3 +26,5 @@ function submitRating() {
 }
 
 
+//Made by EMG_Mahmoud
+
