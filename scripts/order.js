@@ -10,7 +10,7 @@
     star.alt = "Star";
     starsContainer.appendChild(star);
   }
-  // Save selected rating to localStorage
+ 
   localStorage.setItem('selectedRating', num);
     }
 function submitRating() {
@@ -32,5 +32,5 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-//Made by EMG_Mahmoud
+
 
